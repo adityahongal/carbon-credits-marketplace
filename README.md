@@ -1,3 +1,3 @@
-# Carbon Credits Marketplace
+# Carbon Credits Marketplace 🌱
 
 ## by Aditya Hongal
