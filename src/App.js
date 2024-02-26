@@ -1,13 +1,13 @@
 import React from "react";
 import AppRoutes from "./Routes";
 import { BrowserRouter } from "react-router-dom";
-import { ChakraProvider, ColorModeScript, theme } from "@chakra-ui/react";
+import { ChakraProvider } from "@chakra-ui/react";
+import theme from "./utils/theme";
 
 function App() {
   return (
     <BrowserRouter>
       <ChakraProvider theme={theme}>
-        <ColorModeScript initialColorMode={theme.config.initialColorMode} />
         <AppRoutes />
       </ChakraProvider>
     </BrowserRouter>
